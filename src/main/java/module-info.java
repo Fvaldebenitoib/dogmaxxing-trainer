@@ -7,4 +7,8 @@ module cl.duoc.dogmaxxingtrainer {
 
     opens cl.duoc.dogmaxxingtrainer to javafx.fxml;
     exports cl.duoc.dogmaxxingtrainer;
+
+    opens cl.duoc.dogmaxxingtrainer.controller to javafx.fxml;
+    exports cl.duoc.dogmaxxingtrainer.controller;
+
 }

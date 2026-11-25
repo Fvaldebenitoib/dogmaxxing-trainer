@@ -1,9 +1,9 @@
-package cl.duoc.dogmaxxingtrainer;
+package cl.duoc.dogmaxxingtrainer.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class DogController {
     @FXML
     private Label welcomeText;
 
